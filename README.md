@@ -1,7 +1,8 @@
 # OpenAI 转发代理
-将官方 OpenAI 请求转发到第三方 OpenAI 服务。
+将官方 OpenAI 请求转发到第三方 OpenAI 服务的HTTP代理。
 ## Usage
 ```shell
+$ ./openai-proxy
 Usage of openai-proxy:
   -host string
         主机名
