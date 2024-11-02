@@ -29,5 +29,5 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ vars.DOCKERHUB_USERNAME }}/${{ GITHUB_REPOSITORY_NAME_PART }}:${{ github.ref_name }}
-            ${{ vars.DOCKERHUB_USERNAME }}/${{ GITHUB_REPOSITORY_NAME_PART }}:latest
+            ${{ vars.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:${{ github.ref_name }}
+            ${{ vars.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:latest
