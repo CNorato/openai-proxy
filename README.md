@@ -1,5 +1,5 @@
 # OpenAI 转发代理
-将官方 OpenAI 请求转发到第三方 OpenAI 服务的HTTP代理。
+将官方 OpenAI 请求转发到第三方 OpenAI 服务的 HTTP 代理。
 ## Usage
 ```shell
 $ ./openai-proxy
